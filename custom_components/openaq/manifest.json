@@ -1,0 +1,12 @@
+{
+  "domain": "openaq",
+  "name": "OpenAQ",
+  "version": "1.0.0",
+  "documentation": "https://github.com/crionline/openaq-ha",
+  "issue_tracker": "https://github.com/crionline/openaq-ha/issues",
+  "dependencies": [],
+  "codeowners": ["@crionline"],
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "requirements": []
+}

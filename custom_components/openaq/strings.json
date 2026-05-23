@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "OpenAQ Configuration",
+        "description": "Enter your OpenAQ API key and the location ID to monitor.",
+        "data": {
+          "api_key": "API Key",
+          "location_id": "Location ID"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid API key. Please check your credentials.",
+      "cannot_connect": "Cannot connect to OpenAQ API. Please try again.",
+      "location_not_found": "No location found for the given ID.",
+      "unknown": "Unexpected error. Check logs for details."
+    },
+    "abort": {
+      "already_configured": "This location is already configured."
+    }
+  }
+}

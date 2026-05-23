@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurazione OpenAQ",
+        "description": "Inserisci la tua API key di OpenAQ e l'ID della stazione da monitorare.",
+        "data": {
+          "api_key": "API Key",
+          "location_id": "ID Stazione"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "API key non valida. Controlla le credenziali.",
+      "cannot_connect": "Impossibile connettersi all'API OpenAQ. Riprova.",
+      "location_not_found": "Nessuna stazione trovata per l'ID fornito.",
+      "unknown": "Errore imprevisto. Controlla i log per i dettagli."
+    },
+    "abort": {
+      "already_configured": "Questa stazione è già configurata."
+    }
+  }
+}
