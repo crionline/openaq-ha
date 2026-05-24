@@ -158,19 +158,6 @@ Then restart Home Assistant and proceed with the configuration steps above.
 
 ---
 
-## 🤝 Contributing
-
-Contributions, bug reports and feature requests are welcome!
-
-1. Fork the repository
-2. Create your branch: `git checkout -b feat/your-feature`
-3. Commit your changes: `git commit -m 'feat: add your feature'`
-4. Push and open a Pull Request
-
-Please open an [issue](https://github.com/crionline/openaq-ha/issues) before starting major work.
-
----
-
 ## 📄 License
 
 Distributed under the **MIT License** — see [LICENSE](LICENSE) for details.
