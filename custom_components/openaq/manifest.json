@@ -1,7 +1,7 @@
 {
   "domain": "openaq",
   "name": "OpenAQ",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "documentation": "https://github.com/crionline/openaq-ha",
   "issue_tracker": "https://github.com/crionline/openaq-ha/issues",
   "dependencies": [],
