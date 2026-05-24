@@ -2,28 +2,28 @@
   "config": {
     "step": {
       "user": {
-        "title": "OpenAQ – API Key",
-        "description": "Inserisci la tua API key di OpenAQ. Puoi ottenerne una gratuitamente su https://explore.openaq.org/register",
+        "title": "OpenAQ – Chiave API",
+        "description": "Inserisci la tua chiave API OpenAQ. Puoi ottenerla gratuitamente su https://explore.openaq.org/register",
         "data": {
-          "api_key": "API Key"
+          "api_key": "Chiave API"
         }
       },
       "location": {
         "title": "OpenAQ – Seleziona una stazione",
-        "description": "Stazioni trovate entro {radius_km} km dalla tua casa ({lat}, {lon}). Selezionane una dalla lista, oppure attiva l'inserimento manuale per digitare direttamente un ID.",
+        "description": "Stazioni entro {radius_km} km dalla tua abitazione ({lat}, {lon}). Selezionane una dalla lista, oppure attiva **Inserisci ID manualmente** per digitare un ID direttamente.\n\n**Come trovare l'ID di una stazione manualmente:**\n1. Vai su [explore.openaq.org](https://explore.openaq.org)\n2. Cerca la stazione di monitoraggio che ti interessa\n3. Apri la pagina di dettaglio — l'ID numerico appare nell'URL: `explore.openaq.org/locations/**12345**`\n4. Inserisci quel numero nel campo qui sotto (solo cifre, es. `12345`)",
         "data": {
           "location_choice": "Stazioni vicine",
-          "manual_location_id": "Inserisci l'ID manualmente",
-          "location_id": "ID stazione (manuale)"
+          "manual_location_id": "Inserisci ID manualmente",
+          "location_id": "ID stazione — solo valore numerico (es. 12345)"
         }
       }
     },
     "error": {
-      "invalid_auth": "API key non valida. Controlla le credenziali.",
-      "cannot_connect": "Impossibile connettersi all'API OpenAQ. Riprova.",
-      "location_not_found": "Nessuna stazione trovata per l'ID fornito.",
-      "no_locations_nearby": "Nessuna stazione trovata nel raggio di ricerca. Prova a inserire un ID manualmente.",
-      "geo_query_failed": "Errore durante la ricerca delle stazioni vicine. Controlla la connessione o inserisci un ID manualmente.",
+      "invalid_auth": "Chiave API non valida. Controlla le credenziali inserite.",
+      "cannot_connect": "Impossibile connettersi all'API OpenAQ. Riprova più tardi.",
+      "location_not_found": "Nessuna stazione trovata per l'ID inserito. Assicurati di aver copiato l'ID numerico dall'URL su explore.openaq.org.",
+      "no_locations_nearby": "Nessuna stazione trovata entro {radius_km} km. Prova a inserire un ID manualmente (vedi istruzioni sopra).",
+      "geo_query_failed": "Impossibile cercare le stazioni vicine. Controlla la connessione o inserisci un ID manualmente.",
       "required": "Questo campo è obbligatorio.",
       "unknown": "Errore imprevisto. Controlla i log per i dettagli."
     },

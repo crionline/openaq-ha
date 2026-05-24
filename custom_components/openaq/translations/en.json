@@ -10,19 +10,19 @@
       },
       "location": {
         "title": "OpenAQ – Select a location",
-        "description": "Showing stations within {radius_km} km from your home ({lat}, {lon}). Select one from the list, or enable manual entry to type an ID directly.",
+        "description": "Showing stations within {radius_km} km from your home ({lat}, {lon}). Select one from the list, or enable **Enter location ID manually** to type an ID directly.\n\n**How to find a location ID manually:**\n1. Go to [explore.openaq.org](https://explore.openaq.org)\n2. Browse or search for the monitoring station you want\n3. Open the station detail page — the numeric ID appears in the URL: `explore.openaq.org/locations/**12345**`\n4. Enter that number in the field below (integers only, e.g. `12345`)",
         "data": {
           "location_choice": "Nearby stations",
           "manual_location_id": "Enter location ID manually",
-          "location_id": "Location ID (manual)"
+          "location_id": "Location ID — numeric value only (e.g. 12345)"
         }
       }
     },
     "error": {
       "invalid_auth": "Invalid API key. Please check your credentials.",
       "cannot_connect": "Cannot connect to OpenAQ API. Please try again.",
-      "location_not_found": "No location found for the given ID.",
-      "no_locations_nearby": "No stations found within the search radius. Try entering an ID manually.",
+      "location_not_found": "No location found for the given ID. Make sure you copied the numeric ID from the URL on explore.openaq.org.",
+      "no_locations_nearby": "No stations found within {radius_km} km. Try entering an ID manually (see instructions above).",
       "geo_query_failed": "Could not search for nearby stations. Check your connection or enter an ID manually.",
       "required": "This field is required.",
       "unknown": "Unexpected error. Check the logs for details."
