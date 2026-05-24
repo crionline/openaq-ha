@@ -10,6 +10,8 @@ Monitor NO₂, O₃, PM2.5, PM10 and more directly from your nearest government-
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2023.1%2B-41BDF5.svg)](https://www.home-assistant.io)
 [![OpenAQ API](https://img.shields.io/badge/OpenAQ-v3%20API-00A5E0.svg)](https://docs.openaq.org)
 
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/lanec)
+
 ---
 
 ## 🤔 Why Use This Integration?
