@@ -22,7 +22,7 @@ Setting up air quality monitoring in Home Assistant typically means:
 - Dealing with authentication headers in YAML
 - Hardcoding sensor IDs with no UI feedback
 
-**OpenAQ for HA removes all of that.** Install via HACS, enter your API key, and the integration automatically discovers the nearest certified monitoring stations based on your Home Assistant home coordinates. Pick a station from the list and you're done — no YAML, no REST templates, no manual sensor IDs.
+**OpenAQ for HA removes all of that.** Install via HACS, enter your API key, and the integration automatically discovers the nearest certified monitoring stations based on your Home Assistant home coordinates. Pick a station from the list and you’re done — no YAML, no REST templates, no manual sensor IDs.
 
 ---
 
@@ -33,6 +33,7 @@ Setting up air quality monitoring in Home Assistant typically means:
 - Home Assistant 2023.1 or newer
 - [HACS](https://hacs.xyz) installed
 - A free OpenAQ API key → [explore.openaq.org/register](https://explore.openaq.org/register)
+- Home Assistant **home location configured** (Settings → System → General) — the integration uses these coordinates to find nearby stations
 
 ### 1 — Install via HACS
 
@@ -64,12 +65,29 @@ Enter your OpenAQ API key. The integration validates it immediately.
 A list of certified air quality stations within **15 km** of your HA home location appears automatically:
 
 ```
-● Berlin Wedding – Amrumer Str. (DE)
-● Berlin Mitte – Karl-Marx-Allee (DE)
-● Berlin Neukölln – Silbersteinstraße (DE)
+● Turin – Lingotto (IT)
+● Turin – Consolata (IT)
+● Moncalieri – Centro (IT)
 ```
 
-Select one — or toggle **"Enter location ID manually"** for advanced use.
+Select one and you’re done.
+
+> ℹ️ **No stations listed?** This happens if your HA home coordinates are not set, or there are no monitored stations within 15 km. Use the **Enter location ID manually** option described below.
+
+#### 🔍 Finding a Location ID manually
+
+If no stations appear, or you want to monitor a specific station outside the automatic radius:
+
+1. Go to [explore.openaq.org](https://explore.openaq.org)
+2. Browse the map or use the search bar to find the station you want
+3. Click on the station to open its detail page
+4. Copy the **numeric ID from the URL**:
+   ```
+   https://explore.openaq.org/locations/12345
+                                          ^^^^^
+                                      this is your ID
+   ```
+5. Back in Home Assistant, enable **"Enter location ID manually"** and paste the number (integers only — e.g. `12345`)
 
 ### 4 — Done ✅
 
