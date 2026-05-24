@@ -2,11 +2,19 @@
   "config": {
     "step": {
       "user": {
-        "title": "OpenAQ Configuration",
-        "description": "Enter your OpenAQ API key and the location ID to monitor.",
+        "title": "OpenAQ – API Key",
+        "description": "Enter your OpenAQ API key. You can get one for free at https://explore.openaq.org/register",
         "data": {
-          "api_key": "API Key",
-          "location_id": "Location ID"
+          "api_key": "API Key"
+        }
+      },
+      "location": {
+        "title": "OpenAQ – Select a location",
+        "description": "Showing stations within {radius_km} km from your home ({lat}, {lon}). Select one from the list, or enable manual entry to type an ID directly.",
+        "data": {
+          "location_choice": "Nearby stations",
+          "manual_location_id": "Enter location ID manually",
+          "location_id": "Location ID (manual)"
         }
       }
     },
@@ -14,7 +22,10 @@
       "invalid_auth": "Invalid API key. Please check your credentials.",
       "cannot_connect": "Cannot connect to OpenAQ API. Please try again.",
       "location_not_found": "No location found for the given ID.",
-      "unknown": "Unexpected error. Check logs for details."
+      "no_locations_nearby": "No stations found within the search radius. Try entering an ID manually.",
+      "geo_query_failed": "Could not search for nearby stations. Check your connection or enter an ID manually.",
+      "required": "This field is required.",
+      "unknown": "Unexpected error. Check the logs for details."
     },
     "abort": {
       "already_configured": "This location is already configured."
