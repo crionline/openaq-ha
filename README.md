@@ -20,7 +20,7 @@ Setting up air quality monitoring in Home Assistant typically means:
 - Dealing with authentication headers in YAML
 - Hardcoding sensor IDs with no UI feedback
 
-**OpenAQ for HA removes all of that.** Install via HACS, enter your API key, and the integration automatically discovers the nearest certified monitoring stations based on your Home Assistant home coordinates. Pick a station from the list and you're done — no YAML, no REST templates, no manual sensor IDs.
+**OpenAQ for HA removes all of that.** Install via HACS, enter your API key, and the integration automatically discovers the nearest certified monitoring stations based on your Home Assistant home coordinates. Pick a station from the list and you’re done — no YAML, no REST templates, no manual sensor IDs.
 
 ---
 
@@ -62,9 +62,9 @@ Enter your OpenAQ API key. The integration validates it immediately.
 A list of certified air quality stations within **15 km** of your HA home location appears automatically:
 
 ```
-● Orbassano - Gozzano – Via Gozzano c/o Complesso Sportivo (IT)
-● Torino - Consolata – Via della Consolata (IT)
-● Torino - Rebaudengo – Corso Giulio Cesare (IT)
+● Berlin Wedding – Amrumer Str. (DE)
+● Berlin Mitte – Karl-Marx-Allee (DE)
+● Berlin Neukölln – Silbersteinstraße (DE)
 ```
 
 Select one — or toggle **"Enter location ID manually"** for advanced use.
