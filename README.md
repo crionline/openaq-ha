@@ -4,13 +4,13 @@
 
 Monitor NO₂, O₃, PM2.5, PM10 and more directly from your nearest government-certified air quality monitoring station, without writing a single line of YAML.
 
+<a href="https://buymeacoffee.com/lanec" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50"></a>
+
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 [![GitHub Release](https://img.shields.io/github/v/release/crionline/openaq-ha)](https://github.com/crionline/openaq-ha/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2023.1%2B-41BDF5.svg)](https://www.home-assistant.io)
 [![OpenAQ API](https://img.shields.io/badge/OpenAQ-v3%20API-00A5E0.svg)](https://docs.openaq.org)
-
-<a href="https://buymeacoffee.com/lanec" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50"></a>
 
 ---
 
