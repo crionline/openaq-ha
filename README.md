@@ -99,6 +99,8 @@ sensor.openaq_o3     # O₃ mass in µg/m³
 sensor.openaq_pm25   # PM2.5 in µg/m³
 ```
 
+<a href="https://buymeacoffee.com/lanec" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50"></a>
+
 ---
 
 ## 🗂️ Project Structure
@@ -184,7 +186,12 @@ Distributed under the **MIT License** — see [LICENSE](LICENSE) for details.
 
 ---
 
-## 🙏 Credits
+## 🙏 About & Support
 
-- Air quality data provided by [OpenAQ](https://openaq.org) — open, real-time air quality data from government monitoring networks worldwide.
-- Built for the [Home Assistant](https://www.home-assistant.io) ecosystem.
+Built by [@crionline](https://github.com/crionline)
+
+If this integration saves you time, consider supporting its development:
+
+<a href="https://buymeacoffee.com/lanec"><img src="..." height="50"></a>
+
+Data provided by [OpenAQ](https://openaq.org).
