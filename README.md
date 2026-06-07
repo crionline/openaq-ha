@@ -192,6 +192,6 @@ Built by [@crionline](https://github.com/crionline)
 
 If this integration saves you time, consider supporting its development:
 
-<a href="https://buymeacoffee.com/lanec"><img src="..." height="50"></a>
+<a href="https://buymeacoffee.com/lanec" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50"></a>
 
 Data provided by [OpenAQ](https://openaq.org).
